@@ -264,6 +264,16 @@
             <h3 class="font-semibold">Branding Ronaldo vs Messi</h3>
             <p class="text-sm text-gray-500">22 Juni 2025 • Personal Branding</p>
           </div>
+          <div onclick="openBlogModal('videoPendek')" class="cursor-pointer bg-gray-50 shadow-lg rounded p-4 text-center transition hover:scale-[1.02] hover:shadow-xl">
+            <img src="Tiktok.jpeg" alt="Psikologis" class="w-full h-48 object-cover rounded mb-2" />
+            <h3 class="font-semibold">Dibuat Pendek, Dibuat Lemah?</h3>
+            <p class="text-sm text-gray-500">20 Juli 2025 • Psikologis</p>
+          <div onclick="openBlogModal('gameOnline')" class="cursor-pointer bg-gray-50 shadow-lg rounded p-4 text-center transition hover:scale-[1.02] hover:shadow-xl">
+            <img src="Game.jpeg" alt="Psikologis" class="w-full h-48 object-cover rounded mb-2" />
+            <h3 class="font-semibold">Dibuat Pendek, Dibuat Lemah?</h3>
+            <p class="text-sm text-gray-500">20 Juli 2025 • Psikologis</p>
+          </div>
+          </div>
         </div>
       </div>
     </section>
@@ -578,8 +588,22 @@ function openModal(id) {
     Ronaldo menonjolkan fisik, kerja keras, fashion, dan kepercayaan diri. Ia brand pribadi yang bisa menjual apapun—parfum, hotel, bahkan gaya hidup. Messi? Ia lebih silent, berbasis loyalitas dan emosi. Tidak menjual banyak, tapi membuat orang terikat dalam diam.
 
     Dalam personal branding, ini disebut archetype. Ronaldo: Hero. Messi: Innocent. Dua pendekatan yang sama kuat, tergantung siapa audiens kamu.`
-      }
-    };
+      },
+      "videoPendek": {
+        title: "Dibuat Pendek, Dibuat Lemah?",
+        img: "Tiktok.jpeg",
+        date: "20 Juli 2025",
+        content: `Kenapa semua video hari ini dibuat semakin pendek? Apakah benar karena kita sibuk, atau justru karena ada yang ingin kita tak lagi mampu berpikir panjang?
+
+    Video pendek bukan sekadar tren hiburan. Ia adalah alat—alat untuk memecah fokus, menipiskan konsentrasi, dan melemahkan daya tahan berpikir. Microsoft (2022) mencatat bahwa rata-rata perhatian manusia kini hanya 8 detik. Studi dari Nature Communications (2022) juga menegaskan bahwa paparan berlebihan pada konten singkat mengganggu sistem fokus jangka panjang otak.
+
+    Masyarakat dicekoki dopamine cepat lewat algoritma. Bukan makna yang dicari, tapi sensasi. Otak dilatih untuk reaktif, bukan reflektif.
+
+    Dalam jangka panjang, ini bukan cuma tentang hiburan. Ini tentang pembentukan generasi yang tak lagi sanggup membaca buku, membangun argumen, atau melawan narasi dominan. Sebuah pengondisian mental, yang jika tidak disadari, akan mengubah manusia menjadi penonton pasif dalam sistem yang mereka kira netral.
+
+    Mungkin ini bukan kebetulan. Mungkin ini cara baru melemahkan: bukan lewat senjata, tapi lewat layar.`
+      },
+    }; 
 
     const blogModal = document.getElementById("blogModal");
     const blogModalTitle = document.getElementById("blogModalTitle");
